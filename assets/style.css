@@ -1,0 +1,310 @@
+.navbar{
+    z-index: 10;
+}
+.nav-link.active{
+    color:#be2664;
+    font-size: 16.8px;
+}
+.nav-link{
+    font-size: 16.8px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+.nav-link:hover{
+    color:#be2664 !important;
+}
+.btn-contact{
+    border-radius: 30px;
+    border:1px solid #183c60;
+    margin:0 10px;
+    color:#183c60;
+    text-align: left;
+}
+.btn-contact:hover{
+    border-radius: 30px;
+    border:1px solid #183c60;
+    margin:0 10px;
+    color:white !important;
+    background-color:#183c60;
+}
+.btn-consult{
+    border-radius: 30px;
+    background-color: #be2664;
+    color:white;
+    text-align: left;
+}
+.btn-consult:hover{
+    background-color: white;
+    border:1px solid #be2664;
+    color:#be2664
+}
+.hero{
+    background-image: url("./home-background.png");
+    background-repeat:none !important;
+    height: 85vh !important;
+
+    align-items: center;
+    justify-content: center;
+}
+.hero .container{
+    color:white; 
+    padding-top:210px;
+}
+.about-us{
+    background-image:linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)),url("./about-background-sparkels.png");
+    background-position: right;
+}
+.gray-text{
+    color:#696e77;
+}
+.grayblack-text{
+    color:#122748;
+}
+.who-are-we{
+    letter-spacing:2.47px;
+    font-size:31.3px;
+    width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #000; 
+   line-height: 0.1em;
+   margin: 10px 0 20px;
+}
+.who-are-we{
+    letter-spacing:2.47px;
+    font-size:22.3px;
+    width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #696e77; 
+   line-height: 0.1em;
+   margin: 10px 0 20px;
+}
+.who-are-we span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+.about-us-content{
+    background-image: linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.9)),url("./about-us.png");
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.about-us .content{
+    color:#122748;
+    font-size:16px;
+}
+.about-us .content span{
+    font-weight:700;
+    font-size:18px;
+}
+.get-in-touch{
+    background-color:#183c60;
+    color:white;
+}
+.get-in-touch .container{
+    background-image:linear-gradient(rgba(24, 60, 96,0.5),rgba(24, 60, 96,0.5)), url("./home-sparkels-back.png");
+    z-index:-1;
+    background-position: top;
+    /* background-size:cover; */
+}
+.call-us{
+    font-weight:700;
+    letter-spacing: 1.27px;
+}
+.fa-phone-alt{
+    color:#183c60;
+}
+.contact{
+    background-color:white;
+    color:#183c60;
+    border-radius: 30px;    
+    width:210px !important;
+    padding:5px 15px !important;
+    
+}
+
+.contact:hover{
+    /* background-color:#183c60 !important;
+    border:1px solid white !important;
+    color:white; */
+    cursor:pointer;
+}
+.fa-phone-alt{
+    color:#183c60;
+}
+.benefits .content{
+    background-image:linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("./background-sparkels.png");
+    z-index:10;
+    background-position: top;
+    /* background-size:cover; */
+}
+.benefits .container{
+    color:#122748;
+    font-size:12px;
+}
+.benefit-text{
+    margin-left:-150px;
+}
+.benefits p{
+    line-height: 1.48em;
+}
+.note{
+    background-color:#183c60;
+    color:white !important;
+    margin-left:-90px;
+    width:600px;
+    border-radius:10px;
+}
+.what-we-do-container p{
+    font-size:15px;
+    color:#696e77;
+}
+.what-we-do-container h6{
+    color:#183c60;
+}
+.help-you-content section{
+    background-color:#183c60;
+    color:white !important;
+    border-radius:10px;
+    padding:20px 20px !important;
+}
+.help-you-content section p{    
+    color:white !important;  
+    font-weight:100 !important; 
+}
+#first{
+    border-right:1px solid #696e77;
+    border-bottom:1px solid #696e77;
+}
+#second{
+    border-left:1px solid #696e77;
+    border-bottom:1px solid #696e77;
+}
+#third{
+    border-right:1px solid #696e77;
+    border-top:1px solid #696e77;
+}
+#fourth{
+    border-left:1px solid #696e77;
+    border-top:1px solid #696e77;
+}
+.heading{
+    font-weight: 100;
+    color:#696e77;
+}
+.heading span{
+    font-weight: 700;
+}
+.we{
+   
+    letter-spacing:2.47px;
+    font-size:22.3px;
+    width: 100%; 
+    text-align: center; 
+    border: 1px solid #be2664; 
+    border-radius:10px;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+
+}
+.we{
+    background:#fff; 
+    padding:0 10px; 
+}
+.vision{
+    margin-top:-50px;
+    height:80px;
+}
+@media only screen and (max-width:900px){
+    .hero .container{
+        color:white; 
+        padding-top:150px;
+    }
+    .nav-link{
+        font-size:12px;
+    }
+    .btn{
+        padding:5px 10px !important;
+        margin-top:10px;
+    }
+    .btn-contact{
+        border-radius: 30px;
+        border:1px solid #183c60;
+        margin:0 0px;
+        color:#183c60;
+        text-align: left;
+    }
+    .hero{
+        height:60vh !important;
+        margin-top:auto !important;
+        margin-bottom:auto !important;
+    }
+    
+    .hero h4{
+        font-size:15px;
+    }
+    .hero h1{
+        font-size:26px;
+    }
+    .who-are-we{
+        letter-spacing:normal !important;
+        font-size:15.3px;
+        width: 100%; 
+       text-align: center; 
+       border-bottom: 1px solid #696e77; 
+       line-height: 0.1em;
+       margin: 10px 0 20px;
+    }
+    .get-in-touch h2{
+        font-size:15px !important;
+    }
+    .get-in-touch .call-us{
+        font-size:16px !important;
+    }
+    .contact{
+        width:210px !important;
+        padding:5px 15px !important;
+    }
+    .benefits .container{
+        color:#122748;
+        font-size:12px;
+    }
+    .benefit-text{
+        margin-left:auto;
+    }
+    .note{
+        margin-left:auto;
+        width:auto;
+    }
+    .note h3{
+        font-size:13px !important;
+    }
+    .benefits h2,
+    .about-us h2,
+    .what-we-do-container h2{
+        font-size:18px !important;
+    }
+    .what-we-do-container p{
+        font-size:12px;
+        color:#696e77;
+    }
+    .help-you-content section p{
+        font-size:12px !important;
+    }
+    .help-you-content section h5{
+        font-size:16px !important;
+    }
+    #first,
+    #second,
+    #third,
+    #fourth{
+        border-top:none !important;
+        border-bottom:none !important;
+        border-left:none !important;
+        border-right:none !important;
+    }
+}
